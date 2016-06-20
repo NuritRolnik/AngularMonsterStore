@@ -85,7 +85,7 @@ var monsters = [
 		'weight':'69',
 		'numberOfEyes':'3',
 		'teethLen':'0.8',
-		'imageSrc':'blue-3-eyes.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/blue-3-eyes.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -99,7 +99,7 @@ var monsters = [
 		'weight':'40',
 		'numberOfEyes':'2',
 		'teethLen':'0.2',
-		'imageSrc':'cute-green-monster.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/cute-green-monster.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -113,7 +113,7 @@ var monsters = [
 		'weight':'58',
 		'numberOfEyes':'2',
 		'teethLen':'0.6',
-		'imageSrc':'cute-pink-dotted.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/cute-pink-dotted.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -127,7 +127,7 @@ var monsters = [
 		'weight':'93',
 		'numberOfEyes':'2',
 		'teethLen':'2',
-		'imageSrc':'green-big-cutie.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/green-big-cutie.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -141,7 +141,7 @@ var monsters = [
 		'weight':'52',
 		'numberOfEyes':'1',
 		'teethLen':'1',
-		'imageSrc':'green-small-1-eye.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/green-small-1-eye.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -155,7 +155,7 @@ var monsters = [
 		'weight':'80',
 		'numberOfEyes':'1',
 		'teethLen':'1.6',
-		'imageSrc':'sparkly-purplish.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/sparkly-purplish.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -169,7 +169,7 @@ var monsters = [
 		'weight':'84',
 		'numberOfEyes':'3',
 		'teethLen':'0.7',
-		'imageSrc':'orange-sad-3-eyes.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/orange-sad-3-eyes.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -183,7 +183,7 @@ var monsters = [
 		'weight':'48',
 		'numberOfEyes':'3',
 		'teethLen':'0.2',
-		'imageSrc':'pink-tiny-1-eye.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/pink-tiny-1-eye.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -197,7 +197,7 @@ var monsters = [
 		'weight':'70',
 		'numberOfEyes':'2',
 		'teethLen':'3.2',
-		'imageSrc':'smiley-blue.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/smiley-blue.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
@@ -211,7 +211,7 @@ var monsters = [
 		'weight':'90',
 		'numberOfEyes':'2',
 		'teethLen':'2.4',
-		'imageSrc':'worried-pink.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/worried-pink.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0'
