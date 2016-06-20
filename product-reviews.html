@@ -1,14 +1,6 @@
 <div ng-show='tab.isSet(3)'>
 	<h4>Reviews</h4>
-	<h5><strong>{{monster.name}} stars rating:</strong></h5>
 	
-	<div ng-controller="StarsController as starCtrl" ng-init="recieveAvg(monster)" class="rating">
-		<!--<span>&#10025;</span><span>&#10025;</span><span>&#10025;</span><span>&#10025;</span><span>&#10025;</span>
-		{{monster.reviewAvg}}-->
-		<div ng-bind-html="trustedHtml"></div>
-	</div>
-	
-	</br>
 	<ul>
 		<li ng-repeat='review in monster.reviews'>
 			<div>
