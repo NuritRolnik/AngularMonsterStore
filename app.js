@@ -4,12 +4,10 @@
 	
 	app.controller('StoreController', ['$http', function($http){
 		var store = this;
-		//store.products = monsters;
-		$http.get('/store-products.json').success(function(data){
-		  store.products = data;
-		});
+		store.products = monsters;
 		
 	}]);
+	
 	
 	app.controller('ReviewController', function(){
 		
@@ -24,39 +22,6 @@
 		
 		
 	});
-	
-	app.controller('StarsController', ['$scope', '$sce', function($scope, $sce){
-		
-		var avgScore = 0;
-		var scoreStars = '<p>bla</p>';
-		
-		$scope.recieveAvg= function(product){
-			avgScore = product.reviewsAvg;
-			scoreStars = fillStars();
-		};
-		
-		$scope.starsHtml = scoreStars;
-		
-		function fillStars(){
-			var i = 0;
-			var retString;
-			
-			while(i < avgScore){
-				retString += '<span>&#9733;</span>';
-				i++;
-			}
-			
-			while(i < 5){
-				retString += '<span>&#10025;</span>';
-				i++;
-			}
-			
-			return retString;
-		}
-		
-		$scope.trustedHtml = $sce.trustAsHtml($scope.starsHtml);
-		
-	}]);
 	
 })();
 
