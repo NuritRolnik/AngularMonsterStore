@@ -4,10 +4,10 @@
 	
 	app.controller('StoreController', ['$http', function($http){
 		var store = this;
-		store.products = monsters;
-		// $http.get('/store-products.json').success(function(data){
-		  // store.products = data;
-		// });
+		//store.products = monsters;
+		$http.get('/store-products.json').success(function(data){
+		  store.products = data;
+		});
 		
 	}]);
 	
