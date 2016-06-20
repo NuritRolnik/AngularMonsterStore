@@ -1,0 +1,51 @@
+.img-thumbnail{
+	width:200px;
+	height:200px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+
+.textHeader{
+
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #F90B6D;
+	margin: 0;
+	padding: 5px 0px 10px 0px;
+	line-height: 40px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.list-group{
+	margin:10px;
+}
+
+.nav-pills li.active a, 
+.nav-pills li.active a:hover, 
+.nav-pills li.active a:focus{
+	
+	background-color:#F90B6D;
+}
+
+.nav-pills li a{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-weight: bold;
+	font-size:16px;
+	color: #525252;
+}
+
+.ng-invalid.ng-dirty{
+  border-color:red;
+}
+
+.ng-valid.ng-dirty{
+  border-color:green;
+}
+
+.rating span{
+	color:#A8A8A8;
+	font-size:24px;
+	content:'&#127775';
+}
+
