@@ -70,7 +70,7 @@ var monsters = [
 		'weight':'76',
 		'numberOfEyes':'2',
 		'teethLen':'3',
-		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/big-smile-yellow.jpg',
+		'imageSrc':'https://github.com/NuritRolnik/AngularMonsterStore/blob/gh-pages/big-smile-yellow.jpg?raw=true',
 		'reviews':[],
 		'reviewsSum':'0',
 		'reviewsAvg':'0',
