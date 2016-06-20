@@ -1,0 +1,40 @@
+<div ng-show='tab.isSet(3)'>
+	<h4>Reviews</h4>
+	<h5><strong>{{monster.name}} stars rating:</strong></h5>
+	
+	<div ng-controller="StarsController as starCtrl" ng-init="recieveAvg(monster)" class="rating">
+		<!--<span>&#10025;</span><span>&#10025;</span><span>&#10025;</span><span>&#10025;</span><span>&#10025;</span>
+		{{monster.reviewAvg}}-->
+		<div ng-bind-html="trustedHtml"></div>
+	</div>
+	
+	</br>
+	<ul>
+		<li ng-repeat='review in monster.reviews'>
+			<div>
+				stars: 
+				{{review.body}}
+				<cite class="clearfix">—{{review.author}}</cite>
+			</div>
+		</li>
+	</ul>
+	</br>
+	<form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewForm.$valid && reviewCtrl.addReview(monster)">
+		<h5><strong>Submit a Review</strong></h5>
+		<fieldset class="form-group">
+			<select ng-model="reviewCtrl.review.stars" class="form-control" ng-options="stars for stars in [5,4,3,2,1]" title="Stars" required>
+			  <option value>Give {{monster.name}} stars rating</option>
+			</select>
+		</fieldset>
+		<fieldset class="form-group">
+			<textarea ng-model="reviewCtrl.review.body" class="form-control" placeholder="Write a short review for {{monster.name}}" title="Review"></textarea>
+		</fieldset>
+		<fieldset class="form-group">
+			<input ng-model="reviewCtrl.review.author" type="email" class="form-control" placeholder="jimmyDean@example.org" title="Email" required/>
+		</fieldset>
+		<fieldset class="form-group">
+			<input type="submit" class="btn btn-primary" value="Submit Review" />
+		</fieldset>
+	</form>
+	
+</div>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app='monsterStore'>
+
+	<head>
+	
+		<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'/>
+		<link rel='stylesheet' type='text/css' href='monsterCss.css'/>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
+		<script type='text/javascript' src='products.js'></script>
+		<script type='text/javascript' src='app.js'></script>
+		
+		
+	</head>
+	
+	<body ng-controller='StoreController as store' style='background-color:#E0E0E0;'>
+		
+		<h1 class='textHeader text-center'>Monsters Store</h1>
+		<h3 class='textHeader text-center'>Angular Based Store For Friendly Monsters</h3>
+		
+		<div class="list-group center-block">
+			<div class="list-group-item" ng-repeat='monster in store.products'>
+				<h5 class='listItem text-center'><strong>Monster Name:</strong> {{monster.name}}</h5>
+				<h5 class='listItem text-center'><strong>Monster Type:</strong> {{monster.type}}</h5>
+				<h5 class='listItem text-center'><strong>Monster Price:</strong> {{monster.price | currency:'&#8362;'}}</h5>
+				<div class="img-wrap">
+					<img class="img-thumbnail img-responsive center-block" src={{monster.imageSrc}}/>
+				</div>
+				
+				<product-tabs></product-tabs>
+				
+				
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
